@@ -1,0 +1,107 @@
+.main-header .main-nav {
+    background-color:#222;
+    height:40px;
+    border-radius:5px;
+    border:1px grey solid;
+}
+.main-header .main-nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.main-header .main-nav li {
+    color:#fff;
+    display:inline;
+    margin-right:3px;
+}
+.main-header .main-nav li a {
+    color:#fff;
+    display:inline-block;
+    padding:10px 20px;
+    height:20px;
+}
+.main-header .main-nav li a:hover, .main-header .main-nav li a:active {
+    background-color:#444;
+    color:#FFFFFF;
+    border-radius:5px;
+}
+/*
+**Media Queries --- Responsive Design
+*/
+
+/*
+** Large Tablets
+*/
+@media only screen and (min-width:768px) and (max-width: 980px) {
+    .main-header .main-nav {
+        transition:height 1s;
+        height:40px;
+        border-radius:5px;
+        border:1px red solid;
+    }
+}
+/*
+** Small Tablets
+*/
+@media only screen and (min-width:568px) and (max-width:767px) {
+    .main-header .main-nav {
+        display:block;
+        overflow:hidden;
+        transition:height 1s;
+        height:auto;
+        border-radius:5px;
+        border:1px green solid;
+        width:99%;
+    }
+    .main-header .main-nav ul {
+        padding:2% 1%;
+        text-align:center;
+        width:98%;
+    }
+    .main-header .main-nav li {
+        float:none;
+        display:block;
+        margin-right:0px;
+        width:100%;
+        border-bottom:1px blue solid;
+    }
+    .main-header .main-nav li a {
+        margin-bottom:2px;
+        text-align:center;
+    }
+    .main-header .main-nav li a:hover, .main-header .main-nav li a:active {
+        display:block;
+    }
+}
+/*
+** Smartphones
+*/
+@media only screen and (min-width:240px) and (max-width:567px) {
+    .main-header .main-nav {
+        display:block;
+        overflow:hidden;
+        height:auto;
+        border-radius:5px;
+        border:1px gold solid;
+        width:99%;
+    }
+    .main-header .main-nav ul {
+        padding:2% 1%;
+        text-align:center;
+        width:98%;
+    }   
+    .main-header .main-nav li {
+        float:none;
+        display:block;
+        margin-right:0px;
+        width:100%;
+        border-bottom:1px blue solid;
+    }
+    .main-header .main-nav li a {
+        margin-bottom:2px;
+        text-align:center;
+    }
+    .main-header .main-nav li a:hover, .main-header .main-nav li a:active {
+        display:block;
+    }
+}

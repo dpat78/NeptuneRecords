@@ -1,0 +1,27 @@
+#main-content .article {
+    border-radius:5px;
+    overflow:auto;
+    background-color:#222;
+    padding:10px 15px;
+    margin-top:10px;
+}
+/*
+**Media Queries --- Responsive Design
+*/
+
+/*
+** Large Tablets
+*/
+@media only screen and (min-width:768px) and (max-width: 980px) { 
+}
+/*
+** Small Tablets
+*/
+@media only screen and (min-width:568px) and (max-width:767px) { 
+}
+/*
+** Smartphones
+*/
+@media only screen and (min-width:240px) and (max-width:567px) {
+
+}

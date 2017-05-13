@@ -1,1 +1,99 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:88%;
+    color:White !important;
+    line-height:1.6em;
+    text-align:left;
+    background-color:#111122 !important;
+}
+a {
+    text-decoration:none;
+    color:blue;
+}
+a:hover {
+    color:white;
+}
+h1 {
+    color:cyan;
+    margin:10px 0px 10px 0px;
+}
+h2 {
+    color:cyan;
+    margin:10px 0px 10px 0px;
+}
+h3 {
+    color:cyan;
+    margin:0px 0px 10px 0px;
+}
+
+.clr {
+    clear:both;
+}
+#container {
+    width:80%;
+    margin:0 auto;
+    overflow:auto;
+    clear:both;
+    height:100%;
+}
+#main-content {
+    width:70%;
+    float:left;
+    overflow:auto;
+    transition:width 1s;
+}
+.main-header img#logo {
+    width:45%;
+    margin:0px auto;
+    display:block;
+    transition: width 2s;
+}
+/*
+**Media Queries --- Responsive Design
+*/
+
+/*
+** Large Tablets
+*/
+@media only screen and (min-width:768px) and (max-width: 980px) {
+    #container {
+        width:95%;
+    }
+    #main-content {
+        width:100%;
+        float:none;
+        overflow:auto;
+        transition:width 1s;
+    } 
+}
+/*
+** Small Tablets
+*/
+@media only screen and (min-width:568px) and (max-width:767px) {
+    #container {
+        width:95%;
+    }
+    #main-content {
+        width:99%;
+        float:none;
+        overflow:auto;
+    }
+}
+/*
+** Smartphones
+*/
+@media only screen and (min-width:240px) and (max-width:567px) {
+    #container {
+        width:95%;
+    }
+    #main-content {
+        width:100%;
+        float:none;
+        overflow:auto;
+    }
+}

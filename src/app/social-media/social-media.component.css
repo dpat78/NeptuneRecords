@@ -1,0 +1,75 @@
+#sidebar-right {
+    width:30%;
+    float:left;
+    transition:opacity 4s ease-in-out;
+}
+#sidebar-right .login {
+    border-radius:5px;
+    background-color:#222;
+    overflow:auto;  
+    padding:10px 15px;
+    margin:10px 0px 0px 10px;
+}
+#sidebar-right .social {
+    border-radius:5px;
+    background-color:#222;
+    overflow:auto;
+    padding:10px 15px;
+    margin:10px 0px 0px 10px;
+}
+#sidebar-right .social-links {
+    list-style-type:none;
+    margin-top:10px;
+}
+/*
+**Media Queries --- Responsive Design
+*/
+
+/*
+** Large Tablets
+*/
+@media only screen and (min-width:768px) and (max-width: 980px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .social {
+        margin-left:0;
+    }
+    #sidebar-right .social-links li {
+        display:inline-block;
+        margin-top:10px;
+    } 
+}
+/*
+** Small Tablets
+*/
+@media only screen and (min-width:568px) and (max-width:767px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .social {
+        margin-left:0;
+    }
+    #sidebar-right .social-links li {
+        display:inline-block;
+        margin-top:10px;
+    } 
+}
+/*
+** Smartphones
+*/
+@media only screen and (min-width:240px) and (max-width:567px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .social {
+        margin-left:0;
+    } 
+    #sidebar-right .social-links li {
+        display:inline-block;
+        margin-top:10px;
+    }
+}

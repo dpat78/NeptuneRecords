@@ -1,0 +1,95 @@
+#sidebar-right {
+    width:30%;
+    float:left;
+    transition:opacity 4s ease-in-out;
+}
+#sidebar-right .login-small {
+    border-radius:5px;
+    background-color:#222;
+    overflow:auto;
+    padding:10px 15px;
+    margin:10px 0px 0px 10px;
+    display:none;
+}
+#sidebar-right .login {
+    border-radius:5px;
+    background-color:#222;
+    overflow:auto;  
+    padding:10px 15px;
+    margin:10px 0px 0px 10px;
+}
+#sidebar-right a.account {
+    /*display:inline-block;*/
+    text-align:center;
+    margin:5px 5px 0px 5px;
+    float:left;
+    color:#fff;
+    padding:5px 10px;
+    background-color:#000099;
+    border-radius:5px; 
+}
+#sidebar-right a.account:hover {
+    background-color:#0000FF;
+}
+
+/*
+**Media Queries --- Responsive Design
+*/
+
+/*
+** Large Tablets
+*/
+@media only screen and (min-width:768px) and (max-width: 980px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .login {
+        margin-left:0;
+        display:none;
+    }
+    #sidebar-right .login-small {
+        margin-left:0;
+        display:block;
+    }
+}
+/*
+** Small Tablets
+*/
+@media only screen and (min-width:568px) and (max-width:767px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .login {
+        margin-left:0;
+        display:none;
+    }
+    #sidebar-right .login-small {
+        margin-left:0;
+        display:block;
+    } 
+}
+/*
+** Smartphones
+*/
+@media only screen and (min-width:240px) and (max-width:567px) {
+    #sidebar-right {
+        width:100%;
+        float:none;
+    }
+    #sidebar-right .login {
+        margin-left:0;
+        display:none;
+    }
+    #sidebar-right .login-small {
+        margin-left:0;
+        display:block;
+    }
+    #sidebar-right a.account {
+        display:block;
+        text-align:center;
+        float:none;
+        border-radius:5px; 
+    }
+}

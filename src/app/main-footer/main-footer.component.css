@@ -1,0 +1,14 @@
+.footer {
+    background-color:#222;
+    border: 1px white solid;
+    margin-top:10px;
+    border-radius:5px;
+    height:100%;
+    padding:5px 0px 5px 0px;
+}
+.authors {
+    color:white;
+    line-height:1.2em !important;
+    text-align:center;
+    font-size:70% !important;
+}
