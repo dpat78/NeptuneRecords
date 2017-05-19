@@ -1,14 +1,46 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Neptune Records</title>
+    <link rel="icon" href="./assets/img/favi.png">
+</head>
+<body>
+    <div id="container">
+        <nav-component class="main-nav"></nav-component>
+
+        <router-outlet></router-outlet>
+        
+        <header class="main-header">
+            <div id="main-content">
+                <aside id="sidebar-right">
+                    <div class="login-small">
+                        <a class="account"></a>
+                    </div>
+                </aside>
+                <article class="article">
+                    <header class="art-header"></header>
+                </article>
+            </div>
+            <aside id="sidebar-right">
+                <div class="login">
+                    <a class="account"></a>
+                </div>
+                <div class="social">
+                    <ul class="social-links">
+                        <li></li>
+                    </ul>
+                </div>
+            </aside>
+            <main-footer></main-footer>
+            <!--#################################-->
+            <!--<div class="container">
     <nav-component></nav-component>
     <sidebar-right></sidebar-right>
 
-    <!--<router-outlet></router-outlet>-->
-    <home></home>
-    <about></about>
-    <social-media></social-media>
-    <contact></contact>
-    <gallery></gallery>
-    
-    <main-footer></main-footer>
-</div>
+    <!--<router-outlet></router-outlet>--        <home></home>
+        <about></about>
+        <social-media></social-media>
+        <contact></contact>
+        <gallery></gallery>
+        <main-footer></main-footer>-->
