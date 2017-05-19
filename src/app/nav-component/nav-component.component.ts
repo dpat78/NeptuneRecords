@@ -15,6 +15,10 @@ export class NavComponentComponent implements OnInit {
   ngOnInit() {
   }
 
+  goToHome() {
+    console.log('go to home....;');
+    this.router.navigate(['home']);
+  }
 
   goToAbout() {
     console.log('go to aboutus....;');
